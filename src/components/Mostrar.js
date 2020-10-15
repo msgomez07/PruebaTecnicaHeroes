@@ -45,7 +45,7 @@ render (){
 
     return (
       <div>
-        <nav className="navbar navbar-light bg-light">
+        <nav className="navbar navbar-light bg-light position-fixed fixed-top">
           <h1 className="navbar-brand">Buscar Heroes</h1>
           <form className="form d-flex" onSubmit={this._handleSumbit}>
             <input

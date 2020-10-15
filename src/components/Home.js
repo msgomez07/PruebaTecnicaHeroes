@@ -39,7 +39,7 @@ export default class Home extends Component {
                  <Mostrar onResults={this._handleResults}/>
 
 {this.state.results.length === 0
-?<p>sin resultados ...</p>
+?<div id="contenedorPrincipal">sin resultados ...</div>
 : <div className="row row-cols-1 row-cols-md-3 row-cols-sm-2  row-cols-lg-4  m-3">{this._renderResults()}</div>
 }
 
